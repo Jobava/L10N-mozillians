@@ -396,7 +396,7 @@ msgstr "Persoană recomandată cu succes."
 
 #: mozillians/phonebook/views.py:139
 msgid "Thanks for vouching for a fellow Mozillian! This user is now vouched!"
-msgstr "Mulțumim pentru recomandarea unui coleg mozilian. Persoana a fost recomandată!"
+msgstr "Mulțumim pentru recomandarea unui tovarăș mozilian. Persoana a fost recomandată!"
 
 #: mozillians/phonebook/views.py:202
 msgid "Your account has been created."
@@ -1183,7 +1183,7 @@ msgstr "Directorul comunitar Mozilla"
 
 #: mozillians/templates/phonebook/home.html:23
 msgid "Create your account now to connect with fellow Mozillians."
-msgstr "Creați un cont acum pentru a vă conecta cu colegi mozilieni."
+msgstr "Creați un cont acum pentru a vă conecta cu tovarăși mozilieni."
 
 #: mozillians/templates/phonebook/home.html:25
 msgid "Get started"
