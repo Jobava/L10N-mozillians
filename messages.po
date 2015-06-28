@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-27 05:33-0700\n"
-"PO-Revision-Date: 2015-06-28 21:11+0000\n"
+"PO-Revision-Date: 2015-06-28 20:26+0000\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1396296040.0\n"
+"X-POOTLE-MTIME: 1435523182.0\n"
 
 #: mozillians/api/models.py:49 mozillians/users/models.py:79
 msgid "Privileged"
@@ -32,7 +33,7 @@ msgstr "Trebuie să vă autentificați pentru a continua."
 
 #: mozillians/common/middleware.py:16
 msgid "You must be vouched to continue."
-msgstr "Trebuie să fiți recomandat pentru a continua"
+msgstr "Trebuie să fiți recomandat pentru a continua."
 
 #: mozillians/groups/forms.py:14
 msgid "Name A-Z"
@@ -52,7 +53,7 @@ msgstr "Trebuie să specificați un criteriu sau să schimbați selecția de acc
 
 #: mozillians/groups/forms.py:54
 msgid "Group with this Name already exists."
-msgstr "Nu există grup cu acest nume."
+msgstr "Există deja un grup cu acest nume."
 
 #: mozillians/groups/forms.py:85 mozillians/phonebook/forms.py:106
 msgid "All"
@@ -63,12 +64,10 @@ msgid "Members"
 msgstr "Membri"
 
 #: mozillians/groups/forms.py:87
-#, fuzzy
 msgid "Pending Members"
 msgstr "Membri în așteptare"
 
 #: mozillians/groups/models.py:19
-#, fuzzy
 msgid "Name"
 msgstr "Nume"
 
@@ -113,7 +112,6 @@ msgid "A URL of a wiki with more information about this group (optional)."
 msgstr "O adresă de internet cu mai multe informații despre acest grup (opțional)."
 
 #: mozillians/groups/models.py:180
-#, fuzzy
 msgid "Accepting new members"
 msgstr "Acceptăm membri noi"
 
@@ -131,7 +129,7 @@ msgstr "Nu"
 
 #: mozillians/groups/models.py:193 mozillians/templates/groups/group.html:46
 msgid "New Member Criteria"
-msgstr "Criterii pentru membri noi"
+msgstr "Criterii pentru membrii noi"
 
 #: mozillians/groups/models.py:194
 msgid "Specify the criteria you will use to decide whether or not you will accept a membership request."
@@ -334,7 +332,7 @@ msgstr "Nu puteți invita pe cineva care a fost deja recomandat."
 
 #: mozillians/phonebook/middleware.py:34
 msgid "Please complete registration before proceeding."
-msgstr "Completați procedura înregistrare pentru a continua."
+msgstr "Completați procedura de înregistrare pentru a continua."
 
 #: mozillians/phonebook/models.py:18
 msgid "Inviter"
@@ -350,7 +348,7 @@ msgstr "Persoana primitoare"
 
 #: mozillians/phonebook/models.py:42
 msgid "A fellow Mozillian"
-msgstr "Un coleg mozilian"
+msgstr "Un tovarăș mozilian"
 
 #: mozillians/phonebook/models.py:48
 msgid "Please join me on mozillians.org"
@@ -414,7 +412,9 @@ msgstr "Contul dvs. a fost șters. Vă mulțumim că ați fost mozilian!"
 
 #: mozillians/phonebook/views.py:431
 msgid "%s has been invited to Mozillians. They'll receive an email with instructions on how to join. You can invite another Mozillian if you like."
-msgstr "%s a fost invitat printre mozilieni. Vor primi un email cu instrucțiuni despre cum să se alăture. Puteți invita un alt mozilian dacă doriți."
+msgstr ""
+"%s a fost invitat printre mozilieni. Va primi un email cu instrucțiuni "
+"despre cum să ni se alăture. Puteți invita un alt mozilian dacă doriți."
 
 #: mozillians/phonebook/views.py:452
 msgid "%s's invitation to Mozillians has been revoked. You can invite %s again if you like."
@@ -682,9 +682,8 @@ msgid "Functional Area Members"
 msgstr "Zone funcționale membri"
 
 #: mozillians/templates/groups/group.html:173
-#, fuzzy
 msgid "Group Members"
-msgstr "Membri grup"
+msgstr "Membri grupului"
 
 #: mozillians/templates/groups/group.html:179
 msgid "Your membership request is pending approval by the group curator."
@@ -696,7 +695,9 @@ msgstr "Zone funcționale"
 
 #: mozillians/templates/groups/index_areas.html:12 mozillians/templates/groups/index_skills.html:12
 msgid "View Mozillians, Stewards and information for any functional area. Find out who works on what and how you can help out."
-msgstr "Vizualizați mozilieni, administratori și alte informații pentru zona funcțională. Aflați cine lucrează la ce și cum puteți ajuta."
+msgstr ""
+"Vedeți mozilieni, administratori și alte informații pentru orice zonă "
+"funcțională. Aflați cine lucrează la ce și cum puteți ajuta."
 
 #: mozillians/templates/groups/index_common.html:2 mozillians/templates/groups/index_groups.html:3
 msgid "Group Listing"
@@ -819,7 +820,6 @@ msgid "API"
 msgstr "API"
 
 #: mozillians/templates/phonebook/apikeys.html:11
-#, fuzzy
 msgid "Mozillians API"
 msgstr "API-ul Mozilieni"
 
@@ -1106,7 +1106,6 @@ msgid "The Mozilla Project spans over many countries and languages. Share the la
 msgstr "Proiectul Mozilla are o anvergură globală, pe mai multe continente și limbi. Împărtășește limba cunoscută pentru a fi găsit ușor de alți mozilieni."
 
 #: mozillians/templates/phonebook/edit_profile.html:427
-#, fuzzy
 msgid "Add language"
 msgstr "Adăugare limbă"
 
@@ -1315,7 +1314,6 @@ msgstr "%(recipient)s a fost invitat la Mozilieni. Vor primi un email cu instruc
 "Puteți <a href=\"%(invite_url)s\"> invita un alt mozilian</a> dacă doriți."
 
 #: mozillians/templates/phonebook/location_list.html:16
-#, fuzzy
 msgid "Mozillians in"
 msgstr "Mozilieni în"
 
@@ -1328,12 +1326,10 @@ msgid "Your Profile"
 msgstr "Profilul dvs."
 
 #: mozillians/templates/phonebook/profile.html:16
-#, fuzzy
 msgid "Mozillian Profile"
-msgstr "Profilul de mozilian"
+msgstr "Profil mozilian"
 
 #: mozillians/templates/phonebook/profile.html:18
-#, fuzzy
 msgid "Pending Profile"
 msgstr "Profil în așteptare"
 
@@ -1377,7 +1373,6 @@ msgid "Myself"
 msgstr "Personală"
 
 #: mozillians/templates/phonebook/profile.html:149
-#, fuzzy
 msgid "Mozillian"
 msgstr "Mozilieni"
 
