@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-27 05:33-0700\n"
-"PO-Revision-Date: 2015-07-02 12:34+0000\n"
+"PO-Revision-Date: 2015-07-02 20:32+0000\n"
 "Last-Translator: CristianSilaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1435840482.0\n"
+"X-POOTLE-MTIME: 1435869124.0\n"
 
 #: mozillians/api/models.py:49 mozillians/users/models.py:79
 msgid "Privileged"
@@ -29,7 +29,7 @@ msgstr "Vizibil pentru:"
 
 #: mozillians/common/middleware.py:15
 msgid "You must be logged in to continue."
-msgstr "Trebuie să vă autentificați pentru a continua."
+msgstr "Trebuie să fiți autentificat pentru a continua."
 
 #: mozillians/common/middleware.py:16
 msgid "You must be vouched to continue."
@@ -139,8 +139,8 @@ msgstr "Specificați criteriile folosite pentru acceptarea unui membru nou."
 msgid "Whether group is shown on the UI (in group lists, search, etc). Mainly intended to keep system groups like \"staff\" from cluttering up the interface."
 msgstr ""
 "Dacă acest grup este afișat în interfață (în listele de grupuri, căutare, "
-"etc). În principal destinat pentru ca grupuri de sistem precum „staff” "
-"să nu aglomereze interfața."
+"etc). În principal destinat pentru ca grupuri de sistem precum „staff” să nu "
+"aglomereze interfața."
 
 #: mozillians/groups/tasks.py:52
 msgid "%(count)d outstanding request to join Mozillians group \"%(name)s\""
@@ -150,8 +150,7 @@ msgstr[0] ""
 msgstr[1] ""
 "%(count)d cereri fără răspuns de alăturare în grupul de mozilieni „%(name)s”"
 msgstr[2] ""
-"%(count)d cereri fără răspuns de alăturare în grupul de mozilieni „%"
-"(name)s”"
+"%(count)d cereri fără răspuns de alăturare în grupul de mozilieni „%(name)s”"
 
 #: mozillians/groups/tasks.py:95
 msgid "Accepted to Mozillians group \"%s\""
@@ -391,8 +390,9 @@ msgstr "Introduceți o adresă de e-mail validă."
 
 #: mozillians/phonebook/validators.py:92
 msgid "Please enter a valid phone number in international format (e.g. +1 555 555 5555)"
-msgstr "Introduceți un număr de telefon valid în format internațional "
-"(de ex. +40 720 123 456)"
+msgstr ""
+"Introduceți un număr de telefon valid în format internațional (de ex. +40 "
+"720 123 456)"
 
 #: mozillians/phonebook/views.py:63
 msgid "Successfully vouched user."
@@ -1028,8 +1028,8 @@ msgstr ""
 #: mozillians/templates/phonebook/edit_profile.html:44
 msgid "Our community directory is for Mozillians who are 13 and older. We take safety issues very seriously, especially with minors. If you are under 13, please don't create an account."
 msgstr ""
-"Directorul comunitar este pentru mozilieni în vârstă de 13 ani sau mai mult. Luăm "
-"foarte în serios problemele de siguranță, îndeosebi cele asociate "
+"Directorul comunitar este pentru mozilieni în vârstă de 13 ani sau mai mult. "
+"Luăm foarte în serios problemele de siguranță, îndeosebi cele asociate "
 "minorilor. Dacă aveți sub 13 ani, vă rugăm să nu vă creați cont."
 
 #: mozillians/templates/phonebook/edit_profile.html:59
@@ -1072,7 +1072,8 @@ msgstr "Editați adresa de e-mail"
 #: mozillians/templates/phonebook/edit_profile.html:142 mozillians/templates/phonebook/includes/profile_vouch.html:23
 msgid "Use <a href=\"%(url)s\">Markdown</a> for bold, italic, lists and links."
 msgstr ""
-"Folosiți <a href=\"%(url)s\">Markdown</a> pentru scriere cu bold, italic, liste și legături."
+"Folosiți <a href=\"%(url)s\">Markdown</a> pentru scriere cu bold, italic, "
+"liste și legături."
 
 #: mozillians/templates/phonebook/edit_profile.html:152
 msgid "Your location"
@@ -1146,7 +1147,9 @@ msgstr "După ce ați primit o recomandare veți putea să aderați la grupuri."
 
 #: mozillians/templates/phonebook/edit_profile.html:382
 msgid "A skill is the learned capacity to carry out pre-determined results often with the minimum outlay of time, energy, or both."
-msgstr "O abilitate este o capacitate învățată de a efectua sarcini cu scop predefinit în timp scurt sau fără a depune efort, sau ambele."
+msgstr ""
+"O abilitate este o capacitate învățată de a efectua sarcini cu scop "
+"predefinit în timp scurt sau fără a depune efort, sau ambele."
 
 #: mozillians/templates/phonebook/edit_profile.html:393 mozillians/templates/phonebook/home.html:142 mozillians/templates/phonebook/profile.html:223
 msgid "Languages"
@@ -1483,7 +1486,7 @@ msgstr "%(hours)s ore în urma fusului orar al dvs."
 
 #: mozillians/templates/phonebook/profile.html:342
 msgid "Same time zone as yours."
-msgstr "Același fus orar ca dvs."
+msgstr "Același fus orar ca al dumneavoastră."
 
 #: mozillians/templates/phonebook/includes/photo.html:4
 msgid "This is your Gravatar, change it at gravatar.com"
@@ -1657,4 +1660,4 @@ msgstr "Aveți deja un cont cu acest nume și tip."
 
 #: mozillians/users/models.py:894
 msgid "This language has already been selected."
-msgstr "Limba a fost deja aleasă."
+msgstr "Această limbă a fost deja selectată."
